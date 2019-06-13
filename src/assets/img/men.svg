@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="20px" viewBox="0 0 10 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>men</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dormitory-CRM" transform="translate(-9.000000, -301.000000)" fill="#2196F3">
+            <g id="Table" transform="translate(0.000000, 192.000000)">
+                <path d="M19,114 C19,116.761424 16.7614237,119 14,119 C11.2385762,119 8.99999997,116.761424 8.99999997,114 C8.99999997,111.238576 11.2385762,109 14,109 C16.7614237,109 19,111.238576 19,114 Z M16.2857143,121 C17.2324881,121 18,121.716344 18,122.6 L18,127.4 C18,128.283656 17.2324881,129 16.2857143,129 L11.7142857,129 C10.7675119,129 10,128.283656 10,127.4 L10,122.6 C10,121.716344 10.7675119,121 11.7142857,121 L16.2857143,121 Z" id="men"></path>
+            </g>
+        </g>
+    </g>
+</svg>

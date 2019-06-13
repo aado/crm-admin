@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Tentative</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Tentative">
+            <rect id="Placeholder" x="0" y="0" width="40" height="40"></rect>
+            <path d="M7,5 L7,37 L12.4249412,37 L12.4249412,24.5981176 L20.6338824,24.5981176 L21.3435294,28.1416471 L35.4564706,28.1416471 L35.4564706,8.54352941 L25.3651765,8.54352941 L24.6564706,5 L7,5 Z M8.88235294,6.88235294 L23.1148235,6.88235294 L23.8235294,10.4249412 L33.5741176,10.4249412 L33.5741176,26.2592941 L22.8861176,26.2592941 L22.1764706,22.7167059 L10.5435294,22.7167059 L10.5435294,35.1176471 L8.88235294,35.1176471 L8.88235294,6.88235294 Z" id="Icon" fill="#9E9E9E"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,8 @@
+{
+  "/app/*": {
+    "target": "http://chud.qqenglish.com",
+    "secure": "false",
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

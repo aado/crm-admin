@@ -1,0 +1,106 @@
+<div class="header">
+  <div align="right" style="padding-top:2px;padding-right:20px;">
+    <a href="{{originUrl}}/enroll/?lan=jp" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="JP Enroll" hspace="2" width="25px" src="assets/img/Flag_JPN.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=cn" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="CN Enroll" hspace="2" width="25px" src="assets/img/Flag_CHN.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=kr" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="KR Enroll" hspace="2" width="25px" src="assets/img/Flag_KOR.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=ru" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="RU Enroll" hspace="2" width="25px" src="assets/img/Flag_RUS.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=tw" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="TW Enroll" hspace="2" width="25px" src="assets/img/Flag_TWN.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=vn" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="VN Enroll" hspace="2" width="25px" src="assets/img/Flag_VNM.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=arab" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="ARAB Enroll" hspace="2" width="25px" src="assets/img/Flag_SAU.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=ir" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="IR Enroll" hspace="2" width="25px" src="assets/img/Flag_IRA.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=mn" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="MN Enroll" hspace="2" width="25px" height="16px" src="assets/img/Flag_MN.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=th" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="TH Enroll" hspace="2" width="25px" src="assets/img/Flag_THA.svg"/>
+    </a>
+    <a href="{{originUrl}}/enroll/?lan=en" target="_blank" style="text-decoration:none;">
+      <img style="cursor:pointer;" title="EN Enroll" hspace="2" width="25px" src="assets/img/Flag_Other.svg"/>
+    </a>
+  </div>
+  <nav class="navbar navbar-toggleable-sm navbar-fixed-top navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="showMenu = !showMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <a class="navbar-brand DormitoryCRM" routerLink="/reservation">DormitoryCRM</a>
+    <!--<div class="Icon"><i class="fa fa-info"></i></div>-->
+    <img class="Icon" src="assets/img/Info.svg" height="29.5px" width="28px" (click)="getInformation(true)" id="informationIcon"
+      *ngIf="!(dormitoryReservations.length == 0 && otherReservations.length == 0)">
+    <div class="popover popover-bottom information-notication" *ngIf="showInformation">
+      <div class="popover-notification-header">
+        <span>Update the status of the following reservations.</span>
+        <button type="button" class="btn-close" aria-label="Close" (click)="showInformation = false">
+          <img src="./assets/img/Close.svg" alt="">
+        </button>
+      </div>
+      <perfect-scrollbar class="notification" [config]="config">
+        <div class="information-item" *ngFor="let dormitoryReservation of dormitoryReservations">        
+          check in: {{dormitoryReservation.checkIn | date:'yyyy/MM/dd'}}, {{dormitoryReservation.building}}, {{dormitoryReservation.roomName}},  {{dormitoryReservation.bedName}}<span *ngIf="dormitoryReservation.memo">, {{dormitoryReservation.memo}}</span>
+        </div>
+        <div class="information-item" *ngFor="let otherReservation of otherReservations">        
+          check in: {{otherReservation.checkIn | date:'yyyy/MM/dd'}}, {{otherReservation.building}}, {{otherReservation.accommodationName}}<span *ngIf="otherReservation.memo">, {{otherReservation.memo}}</span>
+        </div>
+      </perfect-scrollbar>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngClass]="{'show': showMenu}">
+      <ul class="navbar-nav" [ngClass]="{'navbar-collapse-ul': showMenu}">
+        <li class="nav-item" [ngClass]="{'nav-item-collapse': showMenu}">
+          <a class="nav-link" routerLink="/student">
+            <img class="icon-link" src="assets/img/People.svg" alt="" align="middle" height="22px" width="22px">
+            <span>Students</span>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{'nav-item-collapse': showMenu}" *ngIf="isAdmin">
+          <a class="nav-link" routerLink="/analysis">
+            <img class="icon-link" src="assets/img/Analysis.svg" alt="" align="middle" height="24px" width="24px">
+            <span> Analysis</span>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{'nav-item-collapse': showMenu}" *ngIf="isAdmin">
+          <a class="nav-link" routerLink="/logs">
+            <img class="icon-link" src="assets/img/Logs.svg" alt="" align="middle" height="24px" width="24px">
+            <span> Logs</span>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{'nav-item-collapse': showMenu}">
+          <a class="nav-link" routerLink="/import">
+            <img class="icon-link" src="assets/img/Upload.svg" alt="" align="middle" height="24px" width="24px">
+            <span> Data Upload</span>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{'nav-item-collapse': showMenu}">
+          <a class="nav-link" routerLink="/export">
+            <img class="icon-link" src="assets/img/Download.svg" alt="" align="middle" height="24px" width="24px">
+            <span> Data Download</span>
+          </a>
+        </li>
+        <li class="nav-item" [ngClass]="{'nav-item-collapse': showMenu}">
+          <span for="" class="nav-link label" id="user-name">
+            {{userProfile.name}}
+            <img class="icon-link" src="assets/img/Green_check.svg" alt="" align="middle" height="14px" width="14px">
+          </span>
+        </li>
+        <li class="nav-item">
+          <a title="Logout" (click)="logout()" class="nav-link Logout" id="logoutBtn"><i class="fa fa-power-off"></i></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

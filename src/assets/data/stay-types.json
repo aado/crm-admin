@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Share House",
+        "value": "1"
+    },
+    {
+        "name": "Alba Uno Hotel",
+        "value": "2"
+    },
+    {
+        "name": "Waterfront Hotel",
+        "value": "3"
+    },
+    {
+        "name": "Share Room",
+        "value": "4"
+    },
+    {
+        "name": "Executive Room",
+        "value": "5"
+    },
+    {
+        "name": "Deluxe Room",
+        "value": "6"
+    },
+    {
+        "name": "Condo",
+        "value": "9"
+    }
+]

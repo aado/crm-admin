@@ -1,0 +1,494 @@
+[
+  {
+    "name": "STANDARD",
+    "value": "1",
+    "type": "1",
+    "country": "JP"
+  },
+  {
+    "name": "SUPERIOR",
+    "value": "2",
+    "type": "1",
+    "country": "JP"
+  },
+  {
+    "name": "LIGHT",
+    "value": "3",
+    "type": "1",
+    "country": "JP"
+  },
+  {
+    "name": "SUPER SHORT LIGHT",
+    "value": "4",
+    "type": "2",
+    "country": "JP"
+  },
+  {
+    "name": "SUPER SHORT",
+    "value": "5",
+    "type": "2",
+    "country": "JP"
+  },
+  {
+    "name": "SUPER SHORT + ONLINE",
+    "value": "6",
+    "type": "2",
+    "country": "JP"
+  },
+  {
+    "name": "BUSINESS",
+    "value": "7",
+    "type": "1",
+    "country": "JP"
+  },
+  {
+    "name": "TOEIC without guarantee",
+    "value": "8",
+    "type": "1",
+    "country": "JP"
+  },
+  {
+    "name": "TOEIC with guarantee",
+    "value": "9",
+    "type": "1",
+    "country": "JP"
+  },
+  {
+    "name": "IELTS",
+    "value": "10",
+    "type": "1",
+    "country": "JP"
+  },
+  {
+    "name": "FAMILY",
+    "value": "11",
+    "type": "1",
+    "country": "JP"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "IT"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "IT"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "IT"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "BH"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "BH"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "BH"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "BR"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "BR"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "BR"
+  },
+  {
+    "name": "Standard ( 六堂一对一＋两堂团体课）",
+    "value": "1",
+    "type": "1",
+    "country": "CN"
+  },
+  {
+    "name": "Light ( 四堂一对一＋两堂团体课）",
+    "value": "3",
+    "type": "1",
+    "country": "CN"
+  },
+  {
+    "name": "TOEIC (前四周要求需上Standard课程四周，四周后调整为多益专业课程）",
+    "value": "8",
+    "type": "1",
+    "country": "CN"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "IR"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "IR"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "IR"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "KR"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "KR"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "KR"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "MY"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "MY"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "MY"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "RU"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "RU"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "RU"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "ARAB"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "ARAB"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "ARAB"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "SP"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "SP"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "SP"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "SW"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "SW"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "SW"
+  },
+  {
+    "name": "Standard ( 六堂一對一＋兩堂團體課）",
+    "value": "1",
+    "type": "1",
+    "country": "TW"
+  },
+  {
+    "name": "Light ( 四堂一對一＋兩堂團體課）",
+    "value": "3",
+    "type": "1",
+    "country": "TW"
+  },
+  {
+    "name": "TOEIC (前四週要求需上Standard課程四週，四週後調整為多益專業課程",
+    "value": "8",
+    "type": "1",
+    "country": "TW"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "TK"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "TK"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "TK"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "UAE"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "UAE"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "UAE"
+  },
+  {
+    "name": "Standard Plan",
+    "value": "1",
+    "type": "1",
+    "country": "VN"
+  },
+  {
+    "name": "Light Plan",
+    "value": "3",
+    "type": "1",
+    "country": "VN"
+  },
+  {
+    "name": "TOEIC",
+    "value": "8",
+    "type": "1",
+    "country": "VN"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "IT"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "IT"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "BH"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "BH"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "BR"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "BR"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "IR"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "IR"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "KR"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "KR"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "MY"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "MY"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "RU"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "RU"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "ARAB"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "ARAB"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "SP"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "SP"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "SW"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "SW"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "TK"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "TK"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "UAE"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "UAE"
+  },
+  {
+    "name": "IELTS (4 PLAN)",
+    "value": "12",
+    "type": "1",
+    "country": "VN"
+  },
+  {
+    "name": "IELTS (6 PLAN)",
+    "value": "13",
+    "type": "1",
+    "country": "VN"
+  }
+]

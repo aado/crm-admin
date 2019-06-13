@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Flag_ESP</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flag_ESP">
+            <rect id="Placeholder" x="0" y="0" width="32" height="32"></rect>
+            <g transform="translate(2.000000, 6.000000)" fill-rule="nonzero">
+                <rect id="Rectangle-path" fill="#FFD200" x="0" y="0" width="28" height="20"></rect>
+                <rect id="Rectangle-path" fill="#FF0000" x="0" y="15" width="28" height="5"></rect>
+                <rect id="Rectangle-path" fill="#FF0000" x="0" y="0" width="28" height="5"></rect>
+                <path d="M7.7,14 C6.1,14 4.5,13.55 4.5,13.55 L4.5,9.3 C4.5,7.5 5.95,6 7.75,6 C9.55,6 11,7.5 11,9.3 L11,13.55 C11,13.55 9.35,14 7.7,14 Z" id="Shape" fill="#FF9C00"></path>
+            </g>
+        </g>
+    </g>
+</svg>

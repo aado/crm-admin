@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Flag_TWN</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flag_TWN">
+            <rect id="Placeholder" x="0" y="0" width="32" height="32"></rect>
+            <g transform="translate(2.000000, 6.000000)">
+                <polygon id="Fill-1" fill="#FF0000" points="0 20 28 20 28 0 0 0"></polygon>
+                <polygon id="Fill-2" fill="#001368" points="0 10 12 10 12 0 0 0"></polygon>
+                <path d="M6,2.5 C7.3805,2.5 8.5,3.619 8.5,5 C8.5,6.381 7.3805,7.5 6,7.5 C4.6195,7.5 3.5,6.381 3.5,5 C3.5,3.619 4.6195,2.5 6,2.5" id="Fill-3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,217 @@
+.header {
+  font-family: AvenirNext;
+  color: #000000;
+  .bg-faded {
+    background: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    .DormitoryCRM {
+      font-size: 28px;
+      line-height: 1.71;
+      width: 192px;
+      height: 48px;
+    }
+    .Icon {
+      cursor: pointer;
+    }
+    .information-notication {
+      background-color: #fffde7 !important;
+      border: 1px solid #979797;
+      width: 615px;
+      min-height: 70px;
+      border-radius: 0;
+      top: 44px;
+      left: 200px;
+      max-width: none;
+      padding: 15px;
+      box-shadow: 0 2px 4px #616161;
+      max-height: 302px;
+      /* overflow-y: scroll;*/
+      &.popover {
+        &.popover-bottom::after,
+        &.popover-bottom::before {
+          border: none;
+          margin-left: 0;
+          top: 0
+        }
+        .popover-notification-header {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          .btn-close {
+            opacity: 0.5;
+            padding: 0;
+            cursor: pointer;
+            background: transparent;
+            border: 0;
+            -webkit-appearance: none;
+          }
+          .btn-close:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    #navbarSupportedContent {
+      margin-left: 25px;
+      -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+      justify-content: flex-end !important;
+      .input-icon {
+        position: relative;
+        i {
+          color: #2196f3;
+          display: block;
+          position: absolute;
+          margin: 10px 2px 4px 10px;
+          width: 16px;
+          height: 16px;
+          font-size: 16px;
+          text-align: center;
+        }
+        &.right {
+          i {
+            float: right;
+            right: 15px;
+          }
+        }
+      }
+      .navbar-nav {
+        padding-top: 10px;
+        .nav-item {
+          margin-left: 40px;
+          .nav-link {
+            font-size: 14px;
+            text-align: left;
+            color: rgba(0, 0, 0, 0.87);
+            margin-left: 0;
+            padding: 8px;
+            .icon-link {
+              margin-right: 8px;
+            }
+            &.Logout {
+              width: 24px;
+              height: 24px;
+              background-color: rgba(0, 0, 0, 0.33);
+              /* background-color: white; */
+              border-radius: 50%;
+              padding: 0;
+              margin-top: 7px;
+              margin-bottom: 7px;
+              padding-top: 3px;
+              padding-left: 25%;
+              color: white;
+              cursor: pointer;
+            }
+            &.label {
+              font-size: 16px;
+              color: rgba(0, 0, 0, 0.87);
+              padding-top: 6px;
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 1329px) {
+      #navbarSupportedContent {
+        .navbar-nav {
+          .nav-item {
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+    @media (max-width: 1044px) and (min-width: 994px) {
+      .DormitoryCRM {
+        font-size: 20px;
+      }
+    }
+    @media(max-width: 993px) {
+      .navbar-toggler {
+        display: block !important;
+      }
+      .navbar-collapse.collapse {
+        display: none!important;
+      }
+      .collapse.show {
+        display: block !important;
+      }
+      .DormitoryCRM {
+        padding-left: 24px;
+      }
+      #navbarSupportedContent {
+        background: white;
+        position: absolute;
+        top: 60px;
+        z-index: 99;
+        margin: 0;
+        width: 100%;
+        padding-right: 24px;
+        padding-left: 24px;
+        .input-icon {
+          width: 100%;
+        }
+        .Search-Box {
+          width: 100%;
+        }
+        .navbar-collapse-ul {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-flow: row;
+          flex-flow: row;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          .nav-item-collapse {
+            -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+          }
+        }
+      }
+    }
+    @media (max-width: 767px) {
+      .Icon {
+        margin-top: 13px;
+      }
+    }
+    @media (max-width: 560px) {
+      #navbarSupportedContent {
+        .navbar-collapse-ul {
+          display: block;
+          .nav-item {
+            font-size: 16px;
+            text-align: center;
+            .nav-link {
+              text-align: center;
+              &.Logout {
+                margin-left: 50%;
+                padding-left: 0 !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 993px) {
+    .bg-faded {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+perfect-scrollbar.notification {
+  max-height: 250px;
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Download</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Download">
+            <rect id="Placeholder" x="0" y="0" width="24" height="24"></rect>
+            <path d="M12,6.999 L5,13.999 L8.999,13.999 L8.999,20 L15,20 L15,13.999 L19,13.999 L12,6.999 Z M5,5.999 L19,5.999 L19,3.999 L5,3.999 L5,5.999 Z" id="Icon" fill="#000000" transform="translate(12.000000, 11.999500) rotate(180.000000) translate(-12.000000, -11.999500) "></path>
+        </g>
+    </g>
+</svg>

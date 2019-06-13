@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Flag_IND</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Flag_IND">
+            <rect id="Placeholder" x="0" y="0" width="32" height="32"></rect>
+            <g transform="translate(2.000000, 6.000000)">
+                <polygon id="Fill-1" fill="#FFFFFF" points="0 20 28 20 28 0 0 0"></polygon>
+                <polygon id="Fill-2" fill="#FF9C00" points="0 6.5 28 6.5 28 0 0 0"></polygon>
+                <polygon id="Fill-3" fill="#39953E" points="0 20 28 20 28 13.5 0 13.5"></polygon>
+                <path d="M14,7.5 C15.381,7.5 16.5,8.619 16.5,10 C16.5,11.381 15.381,12.5 14,12.5 C12.619,12.5 11.5,11.381 11.5,10 C11.5,8.619 12.619,7.5 14,7.5" id="Fill-4" fill="#001368"></path>
+            </g>
+        </g>
+    </g>
+</svg>
